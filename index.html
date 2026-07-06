@@ -10,27 +10,29 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Portfolio</a>
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
-                <ul class="nav">
-                    <li class="nav-item"><a href="#home">Home</a></li>
-                    <li class="nav-item"><a href="#about">About me</a></li>
-                    <li class="nav-item"><a href="#skills">Skills</a></li>
-                    <li class="nav-item"><a href="#achievements">Achievement</a></li>
-                    <li class="nav-item"><a href="#projects">Projects</a></li>
-                    <li class="nav-item"><a href="#contact">Contact me</a></li>
-                </ul>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-dark custom-navbar fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#home">Portfolio</a>
+
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#achievements">Achievement</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
     <div class="main">
 <!-- HOME SECTION -->
-<section id="home">
+<section id="home" class="hidden">
     <div class="container">
 
         <div class="text">
@@ -48,7 +50,7 @@
 
 
 <!-- ABOUT SECTION -->
-<section id="about">
+<section id="about" class="hidden">
     <div class="container">
 
         <div class="image">
@@ -69,7 +71,7 @@
 
     </div>
 </section>
-  <section id="skills">
+  <section id="skills" class="hidden">
     <h2>My Skills</h2>
 
     <div class="skills-container">
@@ -88,7 +90,7 @@
          <div class="skill-box">MongoDB</div>
     </div>
 </section>
-<section id="achievements">
+<section id="achievements" class="hidden">
     <h2>My Achievements</h2>
 
     <div class="achievements-container">
@@ -113,7 +115,7 @@
 
     </div>
 </section>
-<section id="projects">
+<section id="projects" class="hidden">
     <h2>My Projects</h2>
 
     <div class="projects-container">
@@ -134,14 +136,14 @@
         </div>
     </div>
 </section>
-<section id="contact">
+<section id="contact" class="hidden">
     <h2>Contact Me</h2>
 
     <div class="contact-container">
 
         <div class="contact-info">
             <h3>Get in Touch</h3>
-            <p>Email: yourname@gmail.com</p>
+            <p>Email: prabhatsharma7930@gmail.com</p>
             <p>Phone: +91 XXXXX XXXXX</p>
             <p>Location: Ballia, India</p>
         </div>
